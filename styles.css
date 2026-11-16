@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --heading-font: "Manrope", sans-serif;
+    --body-font: "Inter", sans-serif;
+    --body-color: #3a3a3a;
+    --body-bg-color: #F8F4F8;
+    --primary-color: #101D2B;
+    --neutral-color: #f2f2f2;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.desk-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 80px;
+}
+
+.nav-links ul,
+.nav-links li, a{
+  display: flex;
+  font-family: var(--body-font);
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+  color: var(--body-color);
+  font-size: 1rem;
+}
+
+.nav-links a:active {
+    font-weight: bold;
+}
+
+.nav-btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--neutral-color);
+    font-family: var(--body-font);
+    font-size: 1rem;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.heading {
+    font-family: var(--heading-font);
+}
+
+.hero-image-bg {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
