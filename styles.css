@@ -13,6 +13,7 @@
     --body-bg-color: #F8F4F8;
     --primary-color: #101D2B;
     --neutral-color: #f2f2f2;
+    --accent-color: #F9A826;
 }
 
 body {
@@ -59,6 +60,11 @@ body {
     cursor: pointer;
 }
 
+.btn a {
+    text-decoration: none;
+    color: var(--neutral-color);
+}
+
 .hero-btn-container {
     display: flex;
     gap: 24px;
@@ -103,5 +109,52 @@ body {
     border-radius: 50%;
     background-color: var(--primary-color);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.service-section {
+    background-color: var(--primary-color);
+    padding: 40px 0;
+    margin: 40px 80px;
+}
+
+.span-text {
+   color: var(--accent-color);
+   text-align: center;
+   font-size: 1.2rem;
+   font-family: var(--body-font);
+}
+
+.service-title {
+    color: var(--neutral-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.service-sub-title {
+    color: var(--neutral-color);
+    font-family: var(--body-font);
+    text-align: center;
+}
+
+.service-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 400px));
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 80px;
+}
+
+.service-card1 {
+    background-color: var(--accent-color);
+}
+
+.service-img img {
+    width: 360px;
+    height: auto;
+    border-radius: 8px;
+}
