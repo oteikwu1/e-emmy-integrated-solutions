@@ -396,3 +396,9 @@ body {
     margin: 0;
 }
 
+.form-section {
+    background-color: var(--accent-color);
+    display: flex;
+    margin: 40px 80px;
+}
+
