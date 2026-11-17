@@ -151,10 +151,32 @@ body {
 
 .service-card1 {
     background-color: var(--accent-color);
+    border-radius: 8px;
+    padding: 16px;
 }
 
-.service-img img {
-    width: 360px;
+.service-img, .se img {
+    width: 100%;
+    max-width: 363px;
     height: auto;
     border-radius: 8px;
+}
+
+.service-card1 h3 {
+    font-family: var(--heading-font);
+    font-size: 1.4rem;
+    margin-top: 16px;
+    color: var(--primary-color);
+}
+.service-card1 p {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    margin: 18px 0;
+}
+
+.read-btn {
+  padding: 12px 10px;
+  cursor: pointer;
+  max-width: 131px;
+  width: 100%;
 }
