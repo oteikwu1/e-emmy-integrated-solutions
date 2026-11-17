@@ -399,6 +399,21 @@ body {
 .form-section {
     background-color: var(--accent-color);
     display: flex;
+    gap: 40px;
     margin: 40px 80px;
+    padding: 60px 60px;
+}
+
+.form-content {
+    flex: 1;
+}
+
+.form {
+    max-width: 450px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    height: fit-content;
+    padding: 40px 20px;
 }
 
