@@ -271,3 +271,36 @@ body {
     color: var(--body-color);   
 }
 
+.project-section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 0 80px;
+}
+
+.project-title {
+    font-family: var(--heading-font);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.project-sub-title {
+    font-family: var(--body-font);
+    color: var(--body-color);
+    font-size: 1.6rem;
+    line-height: 30px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.project-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 600px));
+    gap: 20px;
+    justify-content: center;
+}
+
+.projects img {
+    max-width: 100%;
+}
+
