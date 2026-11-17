@@ -235,7 +235,9 @@ body {
 }
 
 .choose-card1,
-.choose-card2{
+.choose-card2,
+.choose-card3,
+.choose-card4 {
     background-color: var(--neutral-color);
     box-shadow: 0px  5px 22px 4px rgba(58, 58, 58, 0.25);
     padding: 20px 30px;
@@ -243,14 +245,18 @@ body {
 }
 
 .choose-card1 img,
-.choose-card2 img{
+.choose-card2 img,
+.choose-card3 img,
+.choose-card4 img {
     display: block;
-    max-width: 50px;
+    max-width: 40px;
     height: auto;
 }
 
 .choose-card1 h4,
-.choose-card2 h4 {
+.choose-card2 h4,
+.choose-card3 h4,
+.choose-card4 h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     padding: 10px 0;
@@ -258,7 +264,9 @@ body {
 }
 
 .choose-card1 p,
-.choose-card2 p {
+.choose-card2 p,
+.choose-card3 p,
+.choose-card4 p {
     font-family: var(--body-font);
     color: var(--body-color);   
 }
