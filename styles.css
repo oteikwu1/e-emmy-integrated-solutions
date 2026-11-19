@@ -14,6 +14,7 @@
     --primary-color: #101D2B;
     --neutral-color: #f2f2f2;
     --accent-color: #F9A826;
+    --secondary-color: #38BDF8;
 }
 
 body {
@@ -468,4 +469,53 @@ input[type="text"]{
     padding: 14px 8px;
     border: 2px solid var(--body-color);
     margin: 8px 0 24px 0;
+}
+
+input[type="email"]{
+    max-width: 210px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 8px;
+    border: 2px solid var(--body-color);
+    margin: 8px 0 24px 0;
+    display: inline-block;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color)
+}
+
+input[type="tel"]{
+    max-width: 220px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 8px;
+    border: 2px solid var(--body-color);
+    margin: 8px 0 24px 0;
+}
+
+.email-container,
+.number-container {
+    display: inline-block;
+}
+
+.email-container {
+    margin-right: 10px;
+}
+
+textarea {
+    max-width: 390px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 8px;
+    border: 2px solid var(--body-color);
+    margin: 8px 0 18px 0;
+}
+
+.form-btn {
+    width: 100%;
 }
