@@ -68,6 +68,12 @@ body {
 .btn a {
     text-decoration: none;
     color: var(--neutral-color);
+    font-weight: bold;
+}
+
+.quote-btn a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .hero-btn-container {
@@ -626,9 +632,19 @@ footer {
     }
 
     .hero-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0 20px;
+        gap: 30px;
     }
+
+   .hero-image-bg {
+     max-width: 300px;
+     height: 300px;
+   }
+
+   .hero-image-bg img {
+
+   }
 
     .heading {
         line-height: 1.2;
@@ -647,9 +663,21 @@ footer {
 
     .hero-btn-container {
         gap: 16px;
+        justify-content: center;
     }
 
     .btn {
         padding: 8px 16px;
     }
+
+    .service-section {
+        margin: 0;
+    }
+
+    .service-card-container {
+        grid-template-columns: repeat(1, minmax(0, 462px));
+        margin: 20px;
+    }
+
+
 }
