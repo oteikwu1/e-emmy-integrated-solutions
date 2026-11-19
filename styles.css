@@ -519,3 +519,18 @@ textarea {
 .form-btn {
     width: 100%;
 }
+
+.footer-container {
+    background-color: var(--primary-color);
+}
+
+.footer-logo img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.footer-content p {
+    font-family: var(--body-font);
+    color: var(--neutral-color);
+    text-transform: capitalize;
+}
