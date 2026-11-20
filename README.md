@@ -1,1 +1,0 @@
-# e-emmy-integrated-solutions
