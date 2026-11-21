@@ -751,10 +751,6 @@ footer {
         line-height: 1.1;
     }
 
-    .hero-btn-container {
-
-    }
-
    .hero-image-bg {
      max-width: 300px;
      height: 300px;
@@ -867,6 +863,12 @@ footer {
    .form-content h2 {
     font-size: 2rem;
    }
+
+   .request-btn{
+    max-width: 200px;
+    width: 100%;
+    padding: 12px 24px;
+} 
 
    .email-container,
    .number-container {
