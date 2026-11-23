@@ -636,6 +636,31 @@ footer {
     font-size: 1rem;
 }
 
+.location-image {
+    filter: blur(0) invert(1);
+    width: 26px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.addreess h5 {
+    color: var(--neutral-color);
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.addreess p {
+    color: var(--neutral-color);
+    font-size: 1rem;
+    font-family: var(--body-font);
+    padding-left: 30px;
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
 .footer-social {
     margin: 4px 0;
 }
