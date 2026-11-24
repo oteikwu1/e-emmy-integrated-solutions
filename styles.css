@@ -930,6 +930,10 @@ footer {
     font-size: 2rem;
    }
 
+   .form-sub-title br {
+     display: none;
+   }
+
    .request-btn{
     max-width: 200px;
     width: 100%;
